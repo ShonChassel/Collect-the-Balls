@@ -1,0 +1,78 @@
+body {
+    background-color: black;
+    color: white;
+    background-image: url('../css/88.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    color: rgb(231, 228, 223);
+    margin: 0 auto;
+    text-align:center;
+}
+h1{
+    color: rgb(230, 235, 238);
+    font-family:cursive;
+    font-size: 75px;
+    margin-bottom: auto;
+}
+
+
+.cell {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+.cell img {
+    width: 25px;
+    height: auto;
+    cursor: pointer;
+}
+.floor {
+    background-color: #958fada1;
+}
+.wall {
+    box-shadow: 0px 0px 3px 1px inset;
+    background-color: #572aa5;
+    cursor: not-allowed;
+}
+.restart{
+    display: none;
+}
+.table{
+    margin: 0 auto;
+}
+button{
+    color: rgb(4, 26, 151);
+    border: none;
+    font-family:Impact;
+    font-size: 28px;
+    border-radius: 15%;
+    margin-bottom: 50px;
+    background-color: rgb(236, 236, 240);
+    margin: 0 auto
+    
+}
+td{
+    border-radius: 4px;
+}
+.restart-container{
+padding-top: 25px;
+}
+.board{
+    width: 30px;
+    height: 30px;
+    transition: 0.5s;
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+ 
+}
+table{
+    margin: 0 auto
+    
+}
+.logo{
+    width:100px;
+    height: 100px;  
+    margin-top: 50px; 
+}
